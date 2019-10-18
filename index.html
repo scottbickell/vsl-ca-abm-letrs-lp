@@ -183,6 +183,23 @@
             font-size: 1.4rem;
         }
 
+        .california-team p.rep-name {
+            margin: 1rem 0 .5rem 0;
+        }
+
+        .california-team p.rep-details {
+            margin: .5rem 0 0 0;
+            font-size: 1.5rem;
+            line-height: 2rem;
+        }
+
+        .video-size {
+            /* style="height:370px;width:650px;margin-top:10px;" */
+            width: 650px;
+            height: 370px;
+            margin-top: 10px;
+        }
+
         .right-col p,
         .right-col li {
             font-size: 18px;
@@ -202,6 +219,18 @@
 
         .mb-20 {
             margin-bottom: 20px;
+        }
+
+        @media(max-width:767px) {
+
+            .navbar {
+                height: 150px;
+            }
+
+            .banner-content h1 {
+                font-size: 2.5rem;
+                line-height: 3.5rem;
+            }
         }
     </style>
     <section class="navbar">
@@ -271,8 +300,19 @@
                         Tolman.</h3>
                     <script src="https://fast.wistia.com/embed/medias/dc3my1xo1d.jsonp" async></script>
                     <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
-                    <div class="wistia_embed wistia_async_dc3my1xo1d" style="height:370px;width:650px;margin-top:10px;">
-                        &nbsp;</div>
+                    <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                        <div class="wistia_responsive_wrapper"
+                            style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                            <div class="wistia_embed wistia_async_dc3my1xo1d videoFoam=true"
+                                style="height:100%;position:relative;width:100%">
+                                <div class="wistia_swatch"
+                                    style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
+                                    <img src="https://fast.wistia.com/embed/medias/dc3my1xo1d/swatch"
+                                        style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt=""
+                                        aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div>
+                            </div>
+                        </div>
+                    </div>
 
 
                 </div>
@@ -372,8 +412,7 @@
                                 <a href="mailto:Frankie.Mata@voyagersopris.com">Frankie.Mata@voyagersopris.com</a></p>
                         </div>
                         <div class="col-md-4 text-center">
-                            <img class="img-circle"
-                                src="https://storage.pardot.com/207592/49534/brenda_roberts.png"
+                            <img class="img-circle" src="https://storage.pardot.com/207592/49534/brenda_roberts.png"
                                 alt="">
                             <p class="rep-name"><strong>Brenda Roberts</strong></p>
                             <p class="rep-details">
@@ -389,9 +428,20 @@
             <div class="col-md-5 right-col">
                 <div class="row">
                     <div class="form" pardot-region="form" style="background-color: #f3f2eb; margin-bottom:35px;">
-                        <h3>Help Your Reading Educators Build a Strong Literacy Foundation with <em>LETRS</em></h3>
+                        <p>
+                            <strong>Schedule a presentation now and you will get:</strong>
+                        </p>
 
-                        <iframe frameborder="0" height="975" scrolling="no"
+                        <ul>
+                            <li>Full access to <em>LETRS</em> online FREE for 60 days (one license for you or to share)
+                            </li>
+                            <li>A chance to win a NEW hybrid bicycle in our great <em>LETRS</em> giveaway drawing*</li>
+                        </ul>
+                        <p>
+                            <em>*Drawing will be December 13, 2019.</em>
+                        </p>
+
+                        <iframe frameborder="0" height="1000" scrolling="no"
                             src="https://voyagerlearning.secure.force.com/pform?type=letrs_ca_abm_contact_website"
                             style="overflow: hidden;" width="100%"></iframe>
                     </div>
@@ -411,8 +461,8 @@
                             <li>A chance to win a NEW hybrid bicycle in our great <em>LETRS</em> giveaway drawing*</li>
                         </ul>
                         <p><em>*Drawing will be December 13, 2019.</em></p>
-                        <img src="https://go.voyagersopris.com/l/207592/2019-10-17/b1qmg/207592/124529/yellow_bike_placeholder"
-                            alt="">
+                        <img src="https://go.voyagersopris.com/l/207592/2019-10-17/b1qmg/207592/124529/yellow_bike_placeholder.png"
+                            alt="" class="img-responsive">
                         <p>
                             The selected entry will win a hybrid bicycle with:
                         </p>
